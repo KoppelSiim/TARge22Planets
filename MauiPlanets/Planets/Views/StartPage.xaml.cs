@@ -21,8 +21,15 @@ public partial class StartPage : ContentPage
 		//Planets animation
 
 		parentAnimation.Add(0.2, 0.4, new Animation(v => imgEarth.Opacity = v, 0, 1, Easing.CubicIn));
+        parentAnimation.Add(0.2, 0.4, new Animation(v => imgJupiter.Opacity = v, 0, 1, Easing.CubicIn));
+        parentAnimation.Add(0.2, 0.4, new Animation(v => imgMars.Opacity = v, 0, 1, Easing.CubicIn));
+        parentAnimation.Add(0.2, 0.4, new Animation(v => imgMercury.Opacity = v, 0, 1, Easing.CubicIn));
+        parentAnimation.Add(0.2, 0.4, new Animation(v => imgNeptune.Opacity = v, 0, 1, Easing.CubicIn));
+        parentAnimation.Add(0.2, 0.4, new Animation(v => imgSaturn.Opacity = v, 0, 1, Easing.CubicIn));
+        parentAnimation.Add(0.2, 0.4, new Animation(v => imgUranus.Opacity = v, 0, 1, Easing.CubicIn));
+        parentAnimation.Add(0.2, 0.4, new Animation(v => imgNeptune.Opacity = v, 0, 1, Easing.CubicIn));
 
-		//Intro box
-		parentAnimation.Commit(this, "TransitionAnimation", 16, 3000, null, null);
+        //Intro box
+        parentAnimation.Commit(this, "TransitionAnimation", 16, 3000, null, null);
 	}
 }

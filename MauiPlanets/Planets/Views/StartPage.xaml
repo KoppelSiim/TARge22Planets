@@ -18,11 +18,87 @@
             Opacity="0"
             Source="earth.png"
             VerticalOptions="Start"
-            HorizontalOptions="Center"
+            HorizontalOptions="Start"
             TranslationX="-48"
             TranslationY="148"
             WidthRequest="96"
             HeightRequest="96"/>
 
+        <Image
+            x:Name="imgJupiter"
+            Opacity="0"
+            Source="jupiter.png"
+            VerticalOptions="Start"
+            HorizontalOptions="Start"
+            TranslationX="-100"
+            TranslationY="-64"
+            WidthRequest="96"
+            HeightRequest="96"/>
+
+        <Image
+           x:Name="imgMars"
+           Opacity="0"
+           Source="mars.png"
+           VerticalOptions="Start"
+           HorizontalOptions="Start"
+           TranslationX="300"
+           TranslationY="300"
+           WidthRequest="96"
+           HeightRequest="96"/>
+
+        <Image
+           x:Name="imgMercury"
+           Opacity="0"
+           Source="mercury.png"
+           VerticalOptions="Start"
+           HorizontalOptions="Start"
+           TranslationX="350"
+           TranslationY="400"
+           WidthRequest="96"
+           HeightRequest="96" />
+
+        <Image
+           x:Name="imgNeptune"
+           Opacity="0"
+           Source="neptune.png"
+           VerticalOptions="Start"
+           HorizontalOptions="Center"
+           TranslationX="450"
+           TranslationY="500"
+           WidthRequest="96"
+           HeightRequest="96"/>
+
+        <Image
+             x:Name="imgSaturn"
+             Opacity="0"
+             Source="saturn.png"
+             VerticalOptions="Start"
+             HorizontalOptions="Center"
+             TranslationX="550"
+             TranslationY="600"
+             WidthRequest="96"
+             HeightRequest="96"/>
+            
+        <Image
+             x:Name="imgUranus"
+             Opacity="0"
+             Source="uranus.png"
+             VerticalOptions="Start"
+             HorizontalOptions="Center"
+             TranslationX="700"
+             TranslationY="750"
+             WidthRequest="96"
+             HeightRequest="96"/>   
+            
+         <Image
+              x:Name="imgVenus"
+              Opacity="0"
+              Source="venus.png"
+              VerticalOptions="Start"
+              HorizontalOptions="Center"
+              TranslationX="-200"
+              TranslationY="-250"
+              WidthRequest="96"
+              HeightRequest="96"/>   
     </Grid>
 </ContentPage>
