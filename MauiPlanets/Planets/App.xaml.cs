@@ -4,6 +4,8 @@ using Microsoft.UI.Windowing;
 using Windows.Graphics;
 #endif
 
+using Planets.Views;
+
 namespace Planets;
 
 public partial class App : Application
@@ -15,7 +17,7 @@ public partial class App : Application
 	{
 		InitializeComponent();
 
-#if WINDOWS
+	#if WINDOWS
         Microsoft.Maui.Handlers.WindowHandler.Mapper.AppendToMapping(nameof(IWindow), (handler, view) => 
 		{
 			var mauiWindow = handler.VirtualView;
@@ -25,10 +27,10 @@ public partial class App : Application
 			WindowId windowId = Microsoft.UI.Win32Interop.GetWindowIdFromWindow(windowHandle);
 			AppWindow appWindow = Microsoft.UI.Windowing.AppWindow.GetFromWindowId(windowId);
 			appWindow.Resize(new SizeInt32(WindowHeight,WindowHeight));
-   
+ 
         });
-		 
-#endif
+	#endif  	 
 
-	}
+        MainPage = new NavigationPage(new StartPage());
+    }
 }
