@@ -115,6 +115,39 @@
                 <VerticalStackLayout>
                     
                     <!-- search box !-->
+
+                    <Border Padding ="2.2"
+                            BackgroundColor=""
+                            Stroke="{StaticResource BorderColor}"
+                            HorizontalOptions="Fill"
+                            Margin="0,0,24,0"
+                            HeightRequest="48"
+                            >
+                        <Border.StrokeShape>
+                            <RoundRectangle
+                                CornerRadius="6"/>
+                        </Border.StrokeShape>
+                        <Grid
+                            HorizontalOptions="Fill"
+                            VerticalOptions="Center"
+                            ColumnDefinitions="Auto,*"
+                            ColumnSpacing="16">
+                            <Image
+                                WidthRequest="18"
+                                HeightRequest="18"
+                                Source="imgsearch.png"
+                                Grid.Column="0"
+                                VerticalOptions="Center"/>
+                            <Label
+                                Text="Search your favourite planet"
+                                Grid.Column="1"
+                                VerticalOptions="Center"
+                                VerticalTextAlignment="Center"
+                                Style="{StaticResource MenuLabelStyle}"
+                                
+
+                        </Grid>
+                    </Border>
                 </VerticalStackLayout>
                 
             </ScrollView>
