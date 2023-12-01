@@ -23,7 +23,27 @@ namespace Planets.Services
                     "https://solarsystem.nasa.gov/system/feature_items/images/73_carousel_mercury_2.jpg",
                     "https://science.nasa.gov/_ipx/w_2048&f_webp/https://smd-cms.nasa.gov/wp-content/uploads/2023/05/pia19422-mercury.jpg"
                 }
+            },
+
+            new()
+            {
+                Name = "Venus",
+                Subtitle = "Brightest star",
+                HeroImage = "venus.png",
+                Description = "Venus is the second planet from the Sun." +
+                "It is a rocky planet with the densest atmosphere of all the rocky bodies in the Solar System, and the only one with a mass and size that is close to that of its orbital neighbour Earth."+
+                "Orbiting inferiorly (inside of Earth's orbit), it appears in Earth's sky always close to the Sun, as either a \"morning star\" or an \"evening star\".Venus is the second planet from the Sun." + 
+                "It is a rocky planet with the densest atmosphere of all the rocky bodies in the Solar System, and the only one with a mass and size that is close to that of its orbital neighbour Earth." + 
+                "Orbiting inferiorly (inside of Earth's orbit), it appears in Earth's sky always close to the Sun, as either a \"morning star\" or an \"evening star\".",
+                AccentColorStart = Color.FromArgb("#353535"),
+                AccentColorEnd = Color.FromArgb("#8d9098"),
+                Images = new()
+                {
+                    "https://upload.wikimedia.org/wikipedia/commons/b/b2/Venus_2_Approach_Image.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Venus_globe.jpg/1024px-Venus_globe.jpg"
+                }
             }
+
         };
 
 
