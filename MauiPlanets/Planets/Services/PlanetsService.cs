@@ -86,6 +86,40 @@ namespace Planets.Services
                     "https://miro.medium.com/v2/resize:fit:1358/1*2n6yiV0A8p8Lyk55gId23Q.jpeg"
 
                 }
+            },
+                new()
+            {
+                Name = "Jupiter",
+                Subtitle = "God planet",
+                HeroImage = "jupiter.png",
+                Description = "Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a gas giant with a mass more than two and a half times that of all the other planets in the Solar System combined, and slightly less than one one-thousandth the mass of the Sun. Jupiter orbits the Sun at a distance of 5.20 AU (778.5 Gm) with an orbital period of 11.86 years. Jupiter is the third brightest natural object in the Earth's night sky after the Moon and Venus, and it has been observed since prehistoric times. It was named after Jupiter, the chief deity of ancient Roman religion.",
+                AccentColorStart = Color.FromArgb("#A52A2A"),
+                AccentColorEnd = Color.FromArgb("#913831"),
+                Images = new()
+                {
+                    "https://t4.ftcdn.net/jpg/00/04/94/63/360_F_4946384_BOhNRo9oXd0KiN38sWXwIB72Rh8rzcv1.jpg",
+                   
+
+                }
+            },
+                new()
+            {
+                Name = "Saturn",
+                Subtitle = "Ring planet",
+                HeroImage = "saturn.png",
+                Description = "Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter."+
+                    "It is a gas giant with an average radius of about nine-and-a-half times that of Earth."+
+                    "It has only one-eighth the average density of Earth, but is over 95 times more massive.",
+                AccentColorStart = Color.FromArgb("#808080"),
+                AccentColorEnd = Color.FromArgb("#778899"),
+                Images = new()
+                {
+                    "https://media.cnn.com/api/v1/images/stellar/prod/230210173346-hubble-saturn-rings-spokes.jpg?c=16x9&q=h_720,w_1280,c_fill",
+                    "https://t3.ftcdn.net/jpg/03/41/81/22/360_F_341812269_QJzsDM9n0oN8XgL765xR1jleTdHKRhzi.jpg",
+                    "https://stsci-opo.org/STScI-01EVSVE3VNSYF8J7J7AZ4P6NB8.jpg"
+
+
+                }
             }
 
         };
