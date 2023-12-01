@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Planets.Views.PlanetsPage"
+             xmlns:models="clr-namespace:Planets.Models"
              Title="PlanetsPage">
 
 
@@ -117,7 +118,7 @@
                     <!-- search box !-->
 
                     <Border Padding ="2.2"
-                            BackgroundColor=""
+                            BackgroundColor="AliceBlue"
                             Stroke="{StaticResource BorderColor}"
                             HorizontalOptions="Fill"
                             Margin="0,0,24,0"
@@ -143,11 +144,42 @@
                                 Grid.Column="1"
                                 VerticalOptions="Center"
                                 VerticalTextAlignment="Center"
-                                Style="{StaticResource MenuLabelStyle}"
-                                
+                                Style="{StaticResource MenuLabelStyle}"/>
+
 
                         </Grid>
                     </Border>
+
+                    <Label
+                        Style="{StaticResource PageSubHeaderStyle}"
+                        Margin="0,12,0,0"
+                        >
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="Most popular..."/>
+                                <Span Text="→"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+
+                    <CollectionView
+                         x:Name="lstPopularPlanets"
+                        HeightRequest="280"
+                        SelectionMode="Single">
+                        <CollectionView.ItemsLayout>
+                            <LinearItemsLayout
+                                Orientation="Horizontal"
+                                ItemSpacing="16"
+                                />
+                        </CollectionView.ItemsLayout>
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate
+                                x:DataType="models:Planet">
+
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+
+                    </CollectionView>
                 </VerticalStackLayout>
                 
             </ScrollView>
