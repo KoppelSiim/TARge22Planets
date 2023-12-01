@@ -65,6 +65,27 @@ namespace Planets.Services
                     "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202303/earth-4439728_960_720-sixteen_nine.jpg?VersionId=kZJbwk_Kd9K36im4Xxd08YrnS87DsQMQ"
 
                 }
+            },
+
+              new()
+            {
+                Name = "Mars",
+                Subtitle = "Red planet",
+                HeroImage = "mars.png",
+                Description = "Mars is the fourth planet and the furthest terrestrial planet from the Sun." + 
+                  "The reddish color of its surface is due to finely grained iron(III) oxide dust in the soil, giving it the nickname \"the Red Planet\". " +
+                  "Mars's radius is second smallest among the planets in the Solar System at 3,389.5 km (2,106 mi)." +  
+                  "The Martian dichotomy is visible on the surface: on average, the terrain on Mars's northern hemisphere is flatter and lower than its southern hemisphere." + 
+                  "Mars has a thin atmosphere made primarily of carbon dioxide, and two irregularly shaped natural satellites, Phobos and Deimos.",
+                AccentColorStart = Color.FromArgb("#A52A2A"),
+                AccentColorEnd = Color.FromArgb("#913831"),
+                Images = new()
+                {
+                    "https://cdn.mos.cms.futurecdn.net/Q4UQ2bWADBXqrRy9H3PcTo.jpg",
+                    "https://c02.purpledshub.com/uploads/sites/41/2023/07/mars-thumbnail-fb84d10.jpg",
+                    "https://miro.medium.com/v2/resize:fit:1358/1*2n6yiV0A8p8Lyk55gId23Q.jpeg"
+
+                }
             }
 
         };
