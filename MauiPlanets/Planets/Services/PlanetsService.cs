@@ -159,6 +159,25 @@ namespace Planets.Services
                     "https://i.guim.co.uk/img/static/sys-images/Admin/BkFill/Default_image_group/2011/7/8/1310128645424/Neptune-007.jpg?width=465&dpr=1&s=none"
 
                 }
+            },
+                  new()
+            {
+                Name = "Pluto",
+                Subtitle = "Trans-Neptunian object",
+                HeroImage = "pluto.jpg",
+                Description = "Neptune is the eighth and farthest planet from the Sun. It is the fourth-largest planet in the Solar System by diameter, the third-most-massive planet, and the densest giant planet."+
+                     "It is 17 times the mass of Earth, and slightly more massive than its near-twin Uranus. Neptune is denser and physically smaller than Uranus because its greater mass causes more gravitational compression of its atmosphere."+
+                     "Being composed primarily of gases and liquids, it has no well-defined solid surface. The planet orbits the Sun once every 164.8 years at an orbital distance of 30.1 astronomical units (4.5 billion kilometres; 2.8 billion miles)."+
+                     "It is named after the Roman god of the sea and has the astronomical symbol ♆, representing Neptune's trident.",
+                AccentColorStart = Color.FromArgb("#808080"),
+                AccentColorEnd = Color.FromArgb("#778899"),
+                Images = new()
+                {
+                    "https://img.freepik.com/premium-photo/planet-neptune-space-blue-planet-space_868719-83.jpg",
+                    "https://img.freepik.com/premium-photo/3d-render-planet-neptune-blue-black-space-background_398034-224.jpg",
+                    "https://i.guim.co.uk/img/static/sys-images/Admin/BkFill/Default_image_group/2011/7/8/1310128645424/Neptune-007.jpg?width=465&dpr=1&s=none"
+
+                }
             }
 
         };
