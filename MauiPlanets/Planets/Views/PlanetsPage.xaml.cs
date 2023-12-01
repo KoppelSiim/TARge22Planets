@@ -1,4 +1,6 @@
 using Planets.Models;
+using Planets.Services;
+
 namespace Planets.Views;
 
 public partial class PlanetsPage : ContentPage
@@ -8,7 +10,14 @@ public partial class PlanetsPage : ContentPage
 		InitializeComponent();
 	}
 
-	async void ApiPic_Clicked(System.Object sender,System.EventArgs e)
+    protected override void OnAppearing()
+    {
+        base.OnAppearing();
+        lstPopularPlanets.ItemsSource = PlanetsService.GetFeaturedPlanet();
+        lstAllPlanets.ItemsSource = PlanetsService.GetAllPlanets();
+    }
+
+    async void ApiPic_Clicked(System.Object sender,System.EventArgs e)
 	{
 
 	}
@@ -21,6 +30,11 @@ public partial class PlanetsPage : ContentPage
      async void Planets_SelectionChanged(object sender, SelectionChangedEventArgs e)
     {
         await Navigation.PushAsync(new PlanetDetailsPage(e.CurrentSelection.First() as Planet));
+    }
+
+    async void BackButton_Clicked(object sender, EventArgs e)
+    {
+        await Navigation.PopAsync();
     }
 
 }
