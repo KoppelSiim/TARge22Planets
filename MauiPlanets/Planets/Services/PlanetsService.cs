@@ -120,6 +120,27 @@ namespace Planets.Services
 
 
                 }
+            },
+                 new()
+            {
+                Name = "Uranus",
+                Subtitle = "Coldest planet",
+                HeroImage = "uranus.png",
+                Description = "Uranus is the seventh planet from the Sun. It is a gaseous cyan-coloured ice giant." + 
+                     "Most of the planet is made of water, ammonia, and methane in a supercritical phase of matter, which in astronomy is called 'ice' or volatiles." + 
+                     "The planet's atmosphere has a complex layered cloud structure and has the lowest minimum temperature of 49 K (−224 °C; −371 °F) out of all the Solar System's planets." +
+                     "It has a marked axial tilt of 97.8° with a retrograde rotation rate of 17 hours." +
+                     "This means that in an 84-Earth-year orbital period around the Sun, its poles get around 42 years of continuous sunlight, followed by 42 years of continuous darkness.",
+                AccentColorStart = Color.FromArgb("#808080"),
+                AccentColorEnd = Color.FromArgb("#778899"),
+                Images = new()
+                {
+                    "https://www.funkidslive.com/wp-content/uploads/2022/10/yto1u-i1pvi-1024x585.jpg",
+                    "https://universemagazine.com/wp-content/uploads/2022/06/4-3.jpg",
+                    "https://www.astronomy.com/wp-content/uploads/sites/2/2023/03/Uranussideways.jpg?fit=600%2C394"
+
+
+                }
             }
 
         };
