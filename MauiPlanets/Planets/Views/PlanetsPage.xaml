@@ -165,7 +165,8 @@
                     <CollectionView
                          x:Name="lstPopularPlanets"
                         HeightRequest="280"
-                        SelectionMode="Single">
+                        SelectionMode="Single"
+                        SelectionChanged="Planets_SelectionChanged">
                         <CollectionView.ItemsLayout>
                             <LinearItemsLayout
                                 Orientation="Horizontal"
@@ -175,11 +176,87 @@
                         <CollectionView.ItemTemplate>
                             <DataTemplate
                                 x:DataType="models:Planet">
+                                <Border
+                                    VerticalOptions="Fill"
+                                    WidthRequest="220"
+                                    StrokeThickness="0"
+                                    Background="{Binding Background}"
+                                    Padding="20"
+                                    >
+                                    <Border.StrokeShape>
+                                        <RoundRectangle CornerRadius="24"   
+                                            />
+                                    </Border.StrokeShape>
+
+                                    <Grid
+                                        RowDefinitions="*,Auto, Auto"
+                                        RowSpacing="4"
+                                        >
+                                        <Image
+                                            Grid.Row="0"
+                                            Source="{Binding HeroImage}"
+                                            Rotation="-30"
+                                            Aspect="AspectFit"
+                                            VerticalOptions="Fill"
+                                            HorizontalOptions="Fill"
+                                            />
+
+                                        <Label
+                                            Grid.Row="1"
+                                            Style="{StaticResource FeaturedPlanetHeaderStyle}"
+                                            Text="{Binding Name}"
+                                            Margin="0,8,0,0"
+                                            />
+                                        <Label
+                                            Grid.Row="2"
+                                            Style="{StaticResource FeaturedPlanetHeaderSubtitle}"
+                                            Text="{Binding Subtitle}"
+                                            />
+                                        
+                                        
+
+                                    </Grid>
+                                    
+                                    
+                                </Border>
 
                             </DataTemplate>
                         </CollectionView.ItemTemplate>
 
                     </CollectionView>
+
+                    <Label
+                        Style="{StaticResource PageSubHeaderStyle}"
+                        Margin="0,12,0,0"
+                        >
+
+                        <Label.FormattedText>
+
+                            <FormattedString>
+                                <Span Text="You may also like"/>
+                                <Span Text="→" FontSize="20"/>
+                            </FormattedString>
+                            
+                        </Label.FormattedText>
+                    </Label>
+
+                    <CollectionView
+                        x:Name="lstAllPlanets"
+                        HeightRequest="160"
+                        SelectionMode="Single"
+                        SelectionChanged="Planets_SelectionChanged"
+                        >
+                        <CollectionView.ItemsLayout>
+                            <LinearItemsLayout
+                                Orientation="Horizontal"
+                                ItemSpacing="16"
+                                />
+                        </CollectionView.ItemsLayout>
+                    </CollectionView>
+                    
+                    
+                    
+                    
                 </VerticalStackLayout>
                 
             </ScrollView>
