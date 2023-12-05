@@ -188,8 +188,8 @@ namespace Planets.Services
                 Subtitle = "Cer",
                 HeroImage = "ceres.png",
                 Description = "Cerimg",
-                AccentColorStart = Color.FromArgb("#7CFC00"),
-                AccentColorEnd = Color.FromArgb("#2F4F4F"),
+                AccentColorStart = Color.FromArgb("#00CC66"),
+                AccentColorEnd = Color.FromArgb("#003319"),
                 Images = new()
                 {
 
