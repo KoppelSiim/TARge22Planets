@@ -227,6 +227,27 @@ namespace Planets.Services
                     "https://www.easygeographyforkid.com/wp-content/uploads/2020/01/Screenshot-2022-04-25-161809.png"
 
                 }
+            },
+
+            new()
+            {
+                Name = "MakeMake",
+                Subtitle = "Easterbunny",
+                HeroImage = "makemake.png",
+                Description = "Makemake, along with fellow dwarf planets Pluto, Eris, and Haumea, is located in the Kuiper Belt. " +
+                "Makemake is slightly smaller than Pluto, and is the second-brightest object in the Kuiper Belt as seen from Earth while Pluto is the brightest. " +
+                "It takes about 305 Earth years for this dwarf planet to make one trip around the Sun.\r\n\r\n" +
+                "Makemake holds an important place in the history of solar system studies because it was one of the objects (along with Eris), " +
+                "whose discovery prompted the International Astronomical Union to reconsider the definition of a planet, and to create the new group of dwarf planets.",
+                AccentColorStart = Color.FromArgb("#A0A0A0"),
+                AccentColorEnd = Color.FromArgb("#606060"),
+                Images = new()
+                {
+
+                    "https://upload.wikimedia.org/wikipedia/commons/2/29/Makemake_and_its_moon.jpg",
+                    "https://static01.nyt.com/images/2012/11/27/science/27planet_observatory/27observatory-jumbo.jpg?quality=75&auto=webp&disable=upscale"
+
+                }
             }
 
         };
