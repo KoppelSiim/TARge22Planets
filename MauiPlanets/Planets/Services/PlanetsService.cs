@@ -185,9 +185,14 @@ namespace Planets.Services
             new()
             {
                 Name = "Ceres",
-                Subtitle = "Cer",
+                Subtitle = "Smallest and closest",
                 HeroImage = "ceres.png",
-                Description = "Cerimg",
+                Description = "Ceres is a dwarf planet, the only one located in the inner reaches of the solar system. " +
+                "The rest lie at the outer edges, in the Kuiper Belt. " + 
+                "While it is the smallest of the known dwarf planets, it is the largest object in the asteroid belt.\r\n\r\n" +
+                "Unlike other rocky bodies in the asteroid belt, Ceres is an oblate spheroid, rounded with a rotational bulge around its equator. " +
+                "Scientists think Ceres may have an ocean and possibly an atmosphere. " + 
+                "The recent arrival of a probe has unlocked some of the dwarf planet's secrets, but others remain hidden.",
                 AccentColorStart = Color.FromArgb("#00CC66"),
                 AccentColorEnd = Color.FromArgb("#003319"),
                 Images = new()
