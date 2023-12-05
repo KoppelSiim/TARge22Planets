@@ -3,7 +3,6 @@
 namespace Planets.Services
 {
 
-
     internal static class PlanetsService
     {
         private static List<Planet> planets = new()
@@ -45,7 +44,7 @@ namespace Planets.Services
                 }
             },
 
-             new()
+            new()
             {
                 Name = "Earth",
                 Subtitle = "Our Home",
@@ -67,7 +66,7 @@ namespace Planets.Services
                 }
             },
 
-              new()
+            new()
             {
                 Name = "Mars",
                 Subtitle = "Red planet",
@@ -87,7 +86,8 @@ namespace Planets.Services
 
                 }
             },
-                new()
+
+            new()
             {
                 Name = "Jupiter",
                 Subtitle = "God planet",
@@ -102,7 +102,8 @@ namespace Planets.Services
 
                 }
             },
-                new()
+
+            new()
             {
                 Name = "Saturn",
                 Subtitle = "Ring planet",
@@ -121,7 +122,8 @@ namespace Planets.Services
 
                 }
             },
-                 new()
+
+            new()
             {
                 Name = "Uranus",
                 Subtitle = "Coldest planet",
@@ -141,7 +143,8 @@ namespace Planets.Services
 
                 }
             },
-                 new()
+
+            new()
             {
                 Name = "Neptune",
                 Subtitle = "Roman God",
@@ -160,7 +163,8 @@ namespace Planets.Services
 
                 }
             },
-                  new()
+
+            new()
             {
                 Name = "Pluto",
                 Subtitle = "Not a planet",
@@ -171,7 +175,8 @@ namespace Planets.Services
                 Images = new()
                 {
                     "https://img.freepik.com/premium-photo/pluto-awesome-quality-planets-solar-system-perfect-science-image-5k-elements-this-image-furnished-by-nasa_112293-726.jpg",
-                    
+                    "https://api.time.com/wp-content/uploads/2015/07/false-color-pluto-photo-new-horizons1.jpg",
+                    "https://st4.depositphotos.com/1000423/21642/i/450/depositphotos_216422696-stock-photo-pluto-planet-space-elements-image.jpg"
 
 
                 }
