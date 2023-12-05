@@ -181,7 +181,7 @@ namespace Planets.Services
 
                 }
             },
-
+            
             new()
             {
                 Name = "Ceres",
@@ -202,6 +202,29 @@ namespace Planets.Services
                     "https://sos.noaa.gov/ftp_mirror/astronomy/ceres/media/thumbnail_big.jpg",
                     "https://t4.ftcdn.net/jpg/02/71/55/83/360_F_271558355_8LIj6WkuPUSSeIPKD0VwE645F6Ooipch.jpg"
 
+
+                }
+            },
+
+            new()
+            {
+                Name = "Haumea",
+                Subtitle = "Santa",
+                HeroImage = "haumea.png",
+                Description = "Haumea Dwarf Planet is the third largest and third closest dwarf planet from the sun. " + 
+                "It is famous for its oval shape and many other interesting facts. " +
+                "It is located beyond Neptune and near the dwarf planet Pluto. \r\n\r\n" + 
+                "In 2004 a team lead by an American astronomer Mike Brown discovered it. " +
+                "Though it was considered as a dwarf planet in July 2008 by the naming committee of the International Astronomical Union (IAU). " +
+                "It was named “Haumea” after the Goddess of Fertility and Childbirth in Hawaiian mythology.",
+                AccentColorStart = Color.FromArgb("#7F00FF"),
+                AccentColorEnd = Color.FromArgb("#330066"),
+                Images = new()
+                {
+
+                    "https://www.universetoday.com/wp-content/uploads/2022/10/7871.jpg",
+                    "https://www.astronomytrek.com/wp-content/uploads/2018/01/Haumea.jpg",
+                    "https://www.easygeographyforkid.com/wp-content/uploads/2020/01/Screenshot-2022-04-25-161809.png"
 
                 }
             }
