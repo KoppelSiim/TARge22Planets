@@ -248,6 +248,28 @@ namespace Planets.Services
                     "https://static01.nyt.com/images/2012/11/27/science/27planet_observatory/27observatory-jumbo.jpg?quality=75&auto=webp&disable=upscale"
 
                 }
+            },
+
+            new()
+            {
+                Name = "Eris",
+                Subtitle = "Xena",
+                HeroImage = "eris.png",
+                Description = "At first, Eris appeared to be larger than Pluto. "+
+                "This triggered a debate in the scientific community that led to the International Astronomical Union's decision in 2006 " +
+                "to clarify the definition of a planet. Pluto, Eris, and other similar objects are now classified as dwarf planets.\r\n\r\n"+
+                "Eris was discovered on Jan. 5, 2005, from data obtained on Oct. 21, 2003, during a Palomar Observatory survey " +
+                "of the outer solar system by Mike Brown, a professor of planetary astronomy at the California Institute of Technology, " +
+                "Chad Trujillo of the Gemini Observatory and David Rabinowitz of Yale University.",
+                AccentColorStart = Color.FromArgb("#66B2FF"),
+                AccentColorEnd = Color.FromArgb("#6600CC"),
+                Images = new()
+                {
+
+                    "https://smd-cms.nasa.gov/wp-content/uploads/2023/06/Artists_c_oncept_of_Eris_and_Dysnomia_far_from_the_Sun-jpeg.webp?w=640&format=webp",
+                    "https://upload.wikimedia.org/wikipedia/commons/5/5b/Eris_and_dysnomia2.jpg"
+
+                }
             }
 
         };
