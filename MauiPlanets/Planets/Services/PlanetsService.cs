@@ -185,7 +185,7 @@ namespace Planets.Services
             new()
             {
                 Name = "Ceres",
-                Subtitle = "Smallest and closest",
+                Subtitle = "Roman goddess",
                 HeroImage = "ceres.png",
                 Description = "Ceres is a dwarf planet, the only one located in the inner reaches of the solar system. " +
                 "The rest lie at the outer edges, in the Kuiper Belt. " + 
@@ -198,8 +198,9 @@ namespace Planets.Services
                 Images = new()
                 {
 
-                    "https://api.time.com/wp-content/uploads/2015/07/false-color-pluto-photo-new-horizons1.jpg",
-                    "https://st4.depositphotos.com/1000423/21642/i/450/depositphotos_216422696-stock-photo-pluto-planet-space-elements-image.jpg"
+                    "https://planetary.s3.amazonaws.com/web/assets/pictures/20160101_PIA20182.jpg",
+                    "https://sos.noaa.gov/ftp_mirror/astronomy/ceres/media/thumbnail_big.jpg",
+                    "https://t4.ftcdn.net/jpg/02/71/55/83/360_F_271558355_8LIj6WkuPUSSeIPKD0VwE645F6Ooipch.jpg"
 
 
                 }
