@@ -170,11 +170,29 @@ namespace Planets.Services
                 Subtitle = "Not a planet",
                 HeroImage = "pluto.png",
                 Description = "Pluto (minor-planet designation: 134340 Pluto) is a dwarf planet in the Kuiper belt, a ring of bodies beyond the orbit of Neptune. It is the ninth-largest and tenth-most-massive known object to directly orbit the Sun. It is the largest known trans-Neptunian object by volume, by a small margin, but is slightly less massive than Eris. Like other Kuiper belt objects, Pluto is made primarily of ice and rock and is much smaller than the inner planets. Pluto has only one sixth the mass of Earth's moon, and one third its volume. Pluto was recognized as a planet until 2006.",
-                 AccentColorStart = Color.FromArgb("#353535"),
+                AccentColorStart = Color.FromArgb("#353535"),
                 AccentColorEnd = Color.FromArgb("#8d9098"),
                 Images = new()
                 {
                     "https://img.freepik.com/premium-photo/pluto-awesome-quality-planets-solar-system-perfect-science-image-5k-elements-this-image-furnished-by-nasa_112293-726.jpg",
+                    "https://api.time.com/wp-content/uploads/2015/07/false-color-pluto-photo-new-horizons1.jpg",
+                    "https://st4.depositphotos.com/1000423/21642/i/450/depositphotos_216422696-stock-photo-pluto-planet-space-elements-image.jpg"
+
+
+                }
+            },
+
+            new()
+            {
+                Name = "Ceres",
+                Subtitle = "Cer",
+                HeroImage = "ceres.png",
+                Description = "Cerimg",
+                AccentColorStart = Color.FromArgb("#7CFC00"),
+                AccentColorEnd = Color.FromArgb("#2F4F4F"),
+                Images = new()
+                {
+
                     "https://api.time.com/wp-content/uploads/2015/07/false-color-pluto-photo-new-horizons1.jpg",
                     "https://st4.depositphotos.com/1000423/21642/i/450/depositphotos_216422696-stock-photo-pluto-planet-space-elements-image.jpg"
 
