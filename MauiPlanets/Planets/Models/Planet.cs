@@ -8,7 +8,7 @@ namespace Planets.Models
 {
     public class Planet
     {
-        public string Name { get; set; }
+        /*public string Name { get; set; }
         public string Subtitle { get; set; }
         public string HeroImage { get; set; }
         public string Description { get; set; }
@@ -31,6 +31,6 @@ namespace Planets.Models
                 return bgBrush;
             }
         }
-
+        */
     }
 }
