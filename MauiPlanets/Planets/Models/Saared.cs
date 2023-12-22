@@ -1,16 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Planets.Models
+﻿namespace Esaared.Models
 {
-    public class Planet
+    public class Saared
     {
+        public string HeroImage { get; set; }
         /*public string Name { get; set; }
         public string Subtitle { get; set; }
-        public string HeroImage { get; set; }
+      
         public string Description { get; set; }
         public Color AccentColorStart { get; set; }
         public Color AccentColorEnd { get; set; }
