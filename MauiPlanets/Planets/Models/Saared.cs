@@ -2,7 +2,11 @@
 {
     public class Saared
     {
-        public string HeroImage { get; set; }
+        public string SaarImage { get; set; }
+        public string Name { get; set; }
+
+        public string Description { get; set; }
+
         /*public string Name { get; set; }
         public string Subtitle { get; set; }
       
